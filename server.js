@@ -12,7 +12,7 @@ const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:5000',
   process.env.FRONTEND_URL,
-  'https://reaxapp.vercel.app/',
+  'https://reaxfrontend.vercel.app',
 ].filter(Boolean); // Remove undefined values
 
 const corsOptions = {
